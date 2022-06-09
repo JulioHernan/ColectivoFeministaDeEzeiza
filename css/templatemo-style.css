@@ -60,6 +60,18 @@ body {
 ol,
 ul {
   list-style: none;
+  flex-direction: column;
+  display: flex;
+}
+ul li ul {
+  display: none;
+}
+ul li a:hover + ul,  ul li ul:hover {
+  display: block;
+}
+.social-icons ul {
+
+  flex-direction: row;
 }
 
 blockquote,
@@ -77,6 +89,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 
 html {
   font-size: 100%;
