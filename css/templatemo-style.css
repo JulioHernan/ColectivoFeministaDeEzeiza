@@ -51,6 +51,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 main {
   display: block;
+  margin-top: 2em;
 }
 
 body {
@@ -439,7 +440,7 @@ h3.profile-title {
 .banner-bg {
   padding: 260px 80px;
   position: relative;
-  background: url("../img/7.jpg");
+  background: url("../img/1.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
