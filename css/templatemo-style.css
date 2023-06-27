@@ -550,6 +550,13 @@ h3.profile-title {
 .contact-form {
   margin-top: 40px;
 }
+#whatsapp {
+  padding: 1rem;
+  margin: 1rem;
+}
+#whatsapp img {
+  width:3rem;
+}
 .contact-form input, .contact-form textarea {
   width: 100%;
   outline: 0;
